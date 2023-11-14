@@ -1,7 +1,7 @@
 # DIFFTREE - In BASH, comparing two folders (or checking integrity of a folder), RECURSIVELY
 Finally, thanks to Jean-Claude Jouffre and Sanmayce, here comes a simple script serving as a:
 - Comparator of given two trees (given folders with their nested sub-folders) - useful to check decompression or backups;
-- Integrity checker of a tree (a given folder with its nested sub-folders) - quite useful to monitor your SSDs' health.
+- Integrity checker (showing duplicative files as well) of a tree (a given folder with its nested sub-folders) - quite useful to monitor your SSDs' health.
 
 Showcasing the first feature:
 ```
@@ -155,7 +155,7 @@ Result: Identical/OK.
 [sanmayce@djudjeto3 qb64]$ 
 ```
 
-Your snapshot/stamp is the name of the folder being checked, postfixed with ".sha1.txt", if BLAKE3 is missing then automatically sha1sum will be used:
+Your snapshot/stamp is the name of the folder being checked, postfixed with ".sha1.txt", if BLAKE3 is missing then automatically sha1sum will be used. The 'STATUS' column will be empty if there are no DUPLETS i.e. duplicative files:
 ```
 [sanmayce@djudjeto3 qb64]$ cat newstuff.sha1.txt 
 +--------+------------------------------------------------------------------+-------------------+----------
