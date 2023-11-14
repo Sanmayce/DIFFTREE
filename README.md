@@ -155,6 +155,30 @@ Result: Identical/OK.
 [sanmayce@djudjeto3 qb64]$ 
 ```
 
+Your snapshot/stamp is the name of the folder being checked, postfixed with ".sha1.txt", if BLAKE3 is missing then automatically sha1sum will be used:
+```
+[sanmayce@djudjeto3 qb64]$ cat newstuff.sha1.txt 
++--------+------------------------------------------------------------------+-------------------+----------
+| Status | BLAKE3SUM                                                        | Filesize          | Filename 
++--------+------------------------------------------------------------------+-------------------+----------
+|        | 147c3076bb988468388bbec923916c27247a670639bd46fb46a5166a2019c319 | 0,000,000,001,551 | /home/sanmayce/newstuff/_MakeEXE_Satanichi_CLANG.bat
+|        | 2017993979e6e3613302c59d21d4976d415908e8d014f975dded67a0885ca110 | 0,000,021,205,676 | /home/sanmayce/newstuff/some audio/Sonya Belousova & Giona Ostinelli - The Witcher (2020) - Her Sweet Kiss.flac.wav
+|        | 33cecbe0a05e7c7be657d7d8b99d99a0b86c1d0300af5aa430c3bef3971fe404 | 0,000,000,000,112 | /home/sanmayce/newstuff/Satanichify.bat
+|        | 7dafc7f97b94dfa648bc91f2ab51084df47028aecf04dc9bbc7ea841a0e72afd | 0,000,022,493,632 | /home/sanmayce/newstuff/some audio/Sonya Belousova & Giona Ostinelli - The Witcher (2020) - Everytime You Leave.flac.wav
+|        | 8116da282ca35b0aecb732008f12d4ec275450ac960b499e054dc39e24dd4879 | 0,000,000,000,117 | /home/sanmayce/newstuff/Satanichify.sh
+|        | 8fedbb51eff7fb642358ae6e0cff0ea4ea7e4d1bba3ceaecffbe1c057c27ffee | 0,000,103,071,935 | /home/sanmayce/newstuff/Schizandra_r4_youtube.mkv
+|        | 937ccf63328a20ac99696c08aca44dda7c76c6cafee3f1e8101991f2ddfc5c99 | 0,000,421,437,484 | /home/sanmayce/newstuff/some audio/y2mate.com - The Psychology of The Fool_1080p.mp4.wav
+|        | afe3066a1d2660c7fdb223e0b8b11b5dc96a4be7b257daaea3a3518c70df0fee | 0,000,016,414,175 | /home/sanmayce/newstuff/some audio/Blues & Rock Relax Ballads (2CD) (2023) - Joe Bonamassa - Prisoner.mp3
+|        | b923182384e4577a9c996803437aed72ddc4cf96eae70bd1d99599f99240b05f | 0,000,033,537,372 | /home/sanmayce/newstuff/some audio/Sonya Belousova & Giona Ostinelli - The Witcher (2020) - Toss A Coin To Your Witcher.flac.wav
+|        | bd6c81f8c9621a0ee16bcb7da372eca6bb066521f8acc4368f74ba143dc2cc0c | 0,000,461,977,600 | /home/sanmayce/newstuff/strstr_Berg_Blake_anonymous.tar
+|        | c6a164d6193376094794fccf61c5a89b319271db2666e585f27e46132fbd9b57 | 0,000,010,217,037 | /home/sanmayce/newstuff/some audio/y2mate.com - Милица Божинова и Илия Ангелов Скъпа моя скъпи мой 1987_480p.mp4
+|        | e288a404baf4f2b200bce07e8b197d008582095d31ee9d6fbf10e9fb19d3e925 | 0,000,002,271,436 | /home/sanmayce/newstuff/Nakamichi_Ryuugan-ditto-1TB_btree.c
+|        | f00b2180f5226dff805f8be0e6a9519eed063e05597333b860f69c0e5bf833c6 | 0,005,542,548,243 | /home/sanmayce/newstuff/Schizandra_r4.7z
+|        | f6b4ccf6ecbd928c3840f4ac9718d18db190362a7740edbad7cfa6edb763faa4 | 0,000,000,007,322 | /home/sanmayce/newstuff/_MakeELF_Nakamichi_GCC.sh
++--------+------------------------------------------------------------------+-------------------+----------
+[sanmayce@djudjeto3 qb64]$ 
+```
+
 Enfun,  
 2023-Nov-14  
 Sanmayce
