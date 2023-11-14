@@ -55,7 +55,7 @@ Total number of different files: 0
 [sanmayce@djudjeto3 qb64]$ 
 ```
 
-Showcasing the first feature:
+Showcasing the second feature:
 ```
 [sanmayce@djudjeto3 qb64]$ DIFFTREE_BLAKE3.sh ~/newstuff
 Running DIFFTREE_BLAKE3.sh script revision 4++,
@@ -155,6 +155,6 @@ Result: Identical/OK.
 [sanmayce@djudjeto3 qb64]$ 
 ```
 
-Enfun,
-2023-Nov-14
+Enfun,  
+2023-Nov-14  
 Sanmayce
